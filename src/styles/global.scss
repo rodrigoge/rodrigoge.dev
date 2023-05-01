@@ -1,0 +1,13 @@
+@import './themes.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: var(--background-color);
+}

@@ -1,0 +1,13 @@
+@import './colors.scss';
+
+.dark {
+    --background-color: $black;
+    --text-color: $white;
+    --details-color: $grey;
+}
+
+.white {
+    --background-color: $white;
+    --text-color: $black;
+    --details-color: $light-white;
+}
