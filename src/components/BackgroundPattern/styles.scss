@@ -1,0 +1,134 @@
+@import '../../styles/colors.scss';
+@import '../../styles/themes.scss';
+@import '../../styles/animations.scss';
+
+.pattern-box {
+    background-color: var(--background-color);
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+
+    .polygon {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        -webkit-animation: spin 4s linear infinite;
+        -moz-animation: spin 4s linear infinite;
+        animation: spin 4s linear infinite;
+        z-index: 2;
+    }
+
+    .polygon-filled {
+        color: $yellow;
+        bottom: 170px;
+        left: 10%;
+    }
+
+    .polygon-transparent {
+        color: $white;
+        bottom: 175px;
+        left: 10.5%;
+    }
+
+    .ellipse {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        -webkit-animation: spin 4s linear infinite;
+        -moz-animation: spin 4s linear infinite;
+        animation: spin 4s linear infinite;
+        z-index: 2;
+    }
+
+    .ellipse-filled {
+        color: $orange;
+        top: 120px;
+        left: 50%;
+    }
+
+    .ellipse-transparent {
+        color: $white;
+        top: 115px;
+        left: 50.5%;
+    }
+
+    .square {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        -webkit-animation: spin 4s linear infinite;
+        -moz-animation: spin 4s linear infinite;
+        animation: spin 4s linear infinite;
+        z-index: 2;
+    }
+
+    .square-filled {
+        color: $blue;
+        bottom: 130px;
+        right: 10%;
+    }
+
+    .square-transparent {
+        color: $white;
+        bottom: 135px;
+        right: 9.5%;
+    }
+
+    .octagon {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        -webkit-animation: spin 4s linear infinite;
+        -moz-animation: spin 4s linear infinite;
+        animation: spin 4s linear infinite;
+        z-index: 2;
+    }
+
+    .octagon-filled {
+        color: $green;
+        bottom: 105px;
+        left: 50%;
+    }
+
+    .octagon-transparent {
+        color: $white;
+        bottom: 110px;
+        left: 50.5%;
+    }
+
+    .first-line {
+        position: absolute;
+        background-color: $grey;
+        width: 1px;
+        height: 100vh;
+        z-index: 1;
+        left: 5%;
+    }
+
+    .second-line {
+        position: absolute;
+        background-color: $grey;
+        width: 1px;
+        height: 100vh;
+        z-index: 1;
+        left: 15%;
+    }
+
+    .third-line {
+        position: absolute;
+        background-color: $grey;
+        width: 1px;
+        height: 100vh;
+        z-index: 1;
+        left: 15%;
+    }
+
+    .fourth-line {
+        position: absolute;
+        background-color: $grey;
+        width: 1px;
+        height: 100vh;
+        z-index: 1;
+        left: 15%;
+    }
+}

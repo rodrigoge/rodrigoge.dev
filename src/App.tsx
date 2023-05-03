@@ -1,7 +1,13 @@
+import Router from "./routes/Router";
+
+import './styles/colors.scss';
+import './styles/global.scss';
+import './styles/themes.scss';
+
 function App() {
   return (
     <>
-      <h1>Hello World</h1>
+      <Router />
     </>
   )
 }
