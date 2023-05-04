@@ -96,39 +96,31 @@
         left: 50.5%;
     }
 
-    .first-line {
+    .line {
         position: absolute;
-        background-color: $grey;
-        width: 1px;
+        border: 1px dashed $grey;
         height: 100vh;
         z-index: 1;
-        left: 10%;
+    }
+
+    .first-line {
+        left: 16.6%;
     }
 
     .second-line {
-        position: absolute;
-        background-color: $grey;
-        width: 1px;
-        height: 100vh;
-        z-index: 1;
-        left: 30%;
+        left: 33.3%;
     }
 
     .third-line {
-        position: absolute;
-        background-color: $grey;
-        width: 1px;
-        height: 100vh;
-        z-index: 1;
-        left: 60%;
+        left: 50%;
     }
 
     .fourth-line {
-        position: absolute;
-        background-color: $grey;
-        width: 1px;
-        height: 100vh;
-        z-index: 1;
-        left: 90%;
+        left: 66.6%;
     }
+
+    .fifth-line {
+        left: 83%;
+    }
+
 }

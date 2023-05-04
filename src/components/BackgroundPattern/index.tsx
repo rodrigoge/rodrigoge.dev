@@ -24,10 +24,14 @@ export default function BackgroundPattern() {
             <BsOctagonFill className="octagon octagon-filled" />
             <BsOctagon className="octagon octagon-transparent" />
 
-            <span className="first-line"></span>
-            <span className="second-line"></span>
-            <span className="third-line"></span>
-            <span className="fourth-line"></span>
+            <div className="lines">
+                <span className="line first-line"></span>
+                <span className="line second-line"></span>
+                <span className="line third-line"></span>
+                <span className="line fourth-line"></span>
+                <span className="line fifth-line"></span>
+                <span className="line sixth-line"></span>
+            </div>
         </div>
     );
 }
