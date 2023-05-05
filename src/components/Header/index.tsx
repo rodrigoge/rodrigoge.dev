@@ -2,6 +2,7 @@ import './styles.scss';
 import { Link } from 'react-router-dom';
 import logoImg from '../../assets/logo.svg';
 import Button from '../Button';
+import SwitchTheme from '../SwitchTheme';
 
 export default function Header() {
     return (
@@ -16,7 +17,9 @@ export default function Header() {
                         <Link to="" className='menu-item'>Home</Link>
                         <Link to="" className='menu-item'>About</Link>
                         <Link to="" className='menu-item'>Projects</Link>
-                        <Link to="" className='menu-item'>Flag</Link>
+                        <Link to="" className='menu-item'>
+                            <SwitchTheme />
+                        </Link>
                         <Link to="" className='menu-item'>Theme</Link>
                     </ul>
                 </nav>
