@@ -1,10 +1,12 @@
 import './styles.scss';
 import heroImg from '../../assets/hero-image.svg';
 import BackgroundPattern from '../../components/BackgroundPattern';
+import Header from '../../components/Header';
 
 export default function Homepage() {
     return (
         <div className='dark'>
+            <Header />
             <div className="homepage-container">
                 <form>
                     <div className="hero-section">
