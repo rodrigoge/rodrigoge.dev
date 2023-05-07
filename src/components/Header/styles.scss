@@ -8,13 +8,33 @@ header {
     justify-content: space-between;
     align-items: center;
     z-index: 9999;
-    background-color: $black;
+    background-color: var(--background-color);
     position: relative;
     padding: 0 140px;
-    border-bottom: 1px solid $light-grey;
+    border-bottom: 1px solid var(--details-color);
 
-    img {
-        width: 40px;
+    .logo-image {
+        text-decoration: none;
+
+        .logo {
+            span {
+                font-family: 'Major Mono Display';
+                font-size: 34px;
+                color: var(--text-color);
+            }
+
+            :nth-child(1) {
+                margin-right: -15px;
+            }
+
+            :nth-child(2) {
+                margin-right: -7px;
+            }
+
+            :nth-child(3) {
+                color: $purple;
+            }
+        }
     }
 
     nav {
@@ -27,7 +47,7 @@ header {
             align-items: center;
 
             .menu-item {
-                color: $white;
+                color: var(--text-color);
                 text-decoration: none;
             }
 

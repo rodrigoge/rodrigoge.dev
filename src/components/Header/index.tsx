@@ -1,6 +1,5 @@
 import './styles.scss';
 import { Link } from 'react-router-dom';
-import logoImg from '../../assets/logo.svg';
 import Button from '../Button';
 import SwitchTheme from '../SwitchTheme';
 
@@ -9,7 +8,11 @@ export default function Header() {
         <div className="header-container">
             <header>
                 <Link to="/" className='logo-image'>
-                    <img src={logoImg} alt="Logo Portfolio" />
+                    <div className="logo">
+                        <span>R</span>
+                        <span>G</span>
+                        <span>.</span>
+                    </div>
                 </Link>
 
                 <nav>

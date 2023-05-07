@@ -25,7 +25,7 @@
     }
 
     .polygon-transparent {
-        color: $white;
+        color: var(--text-color);
         bottom: 175px;
         left: 10.5%;
     }
@@ -47,7 +47,7 @@
     }
 
     .ellipse-transparent {
-        color: $white;
+        color: var(--text-color);
         top: 115px;
         left: 50.5%;
     }
@@ -69,7 +69,7 @@
     }
 
     .square-transparent {
-        color: $white;
+        color: var(--text-color);
         bottom: 135px;
         right: 9.5%;
     }
@@ -91,14 +91,15 @@
     }
 
     .octagon-transparent {
-        color: $white;
+        color: var(--text-color);
         bottom: 110px;
         left: 50.5%;
     }
 
     .line {
         position: absolute;
-        border: 1px dashed $grey;
+        border: 1px dashed var(--details-color);
+        ;
         height: 100vh;
         z-index: 1;
     }
