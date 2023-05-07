@@ -1,52 +1,51 @@
-@import "../../styles/colors.scss";
+@import '../../styles/colors.scss';
+@import url('https://use.fontawesome.com/releases/v6.4.0/css/all.css');
 
 .switch-theme-container {
     display: flex;
     align-items: center;
     justify-content: center;
 
-    .toggle-theme {
-        display: flex;
-        align-items: center;
+    label {
+        cursor: pointer;
 
-        label {
-            cursor: pointer;
+        >input {
+            display: none;
+        }
 
-            >input {
-                display: none;
-            }
+        span {
+            color: $grey;
+        }
 
-            i {
-                display: inline-block;
-                width: 50px;
-                height: 25px;
-                border-radius: 20px;
-                vertical-align: middle;
-                position: relative;
-                background: transparent;
-                font-style: normal !important;
-                border: 1px solid red;
-            }
+        i {
+            width: 25px;
+            height: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            vertical-align: middle;
+            transition: 0.25s 0.09s;
+            position: relative;
+            background: transparent;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 20px;
+            font-family: 'Font Awesome 5 Free';
+            top: 2px;
+            left: 2px;
+            transition: 0.15s;
+        }
 
-            >input:checked+i {
-                background: #3b3b3b;
-            }
+        >input+i:after {
+            content: '\f185';
+            display: block;
+            position: absolute;
+        }
 
-            >input+i:after {
-                content: "☀️";
-                display: block;
-                position: absolute;
-                // transition: 0.15s;
-                transform: translateX(5px);
-            }
-
-            >input:checked+i:after {
-                content: "🌙";
-                display: block;
-                position: absolute;
-                // transition: 0.15s;
-                transform: translateX(25px);
-            }
+        >input:checked+i:after {
+            content: '\f186';
+            display: block;
+            position: absolute;
         }
     }
 }

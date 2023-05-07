@@ -17,10 +17,11 @@ export default function Header() {
                         <Link to="" className='menu-item'>Home</Link>
                         <Link to="" className='menu-item'>About</Link>
                         <Link to="" className='menu-item'>Projects</Link>
-                        <Link to="" className='menu-item'>
+                        <span className='menu-item'>Language</span>
+                        <span className='menu-item'>
                             <SwitchTheme />
-                        </Link>
-                        <Link to="" className='menu-item'>Theme</Link>
+                        </span>
+
                     </ul>
                 </nav>
 

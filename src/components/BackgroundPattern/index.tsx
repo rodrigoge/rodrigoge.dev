@@ -11,7 +11,7 @@ import { IoEllipse, IoEllipseOutline } from 'react-icons/io5';
 
 export default function BackgroundPattern() {
     return (
-        <div className="pattern-box">
+        <div className="background-pattern-container">
             <BsFillTriangleFill className="polygon polygon-filled" />
             <BsTriangle className="polygon polygon-transparent" />
 

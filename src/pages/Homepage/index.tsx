@@ -1,13 +1,13 @@
 import './styles.scss';
-import heroImg from '../../assets/hero-image.svg';
+// import heroImg from '../../assets/hero-image.svg';
 import BackgroundPattern from '../../components/BackgroundPattern';
 import Header from '../../components/Header';
 
 export default function Homepage() {
     return (
-        <div className='dark'>
+        <div>
             <Header />
-            <div className="homepage-container">
+            {/* <div className="homepage-container">
                 <form>
                     <div className="hero-section">
                         <h1>Hi! I am Rodrigo Gouveia</h1>
@@ -23,7 +23,7 @@ export default function Homepage() {
                         <img src={heroImg} alt="Hero image" />
                     </aside>
                 </form>
-            </div>
+            </div> */}
             <BackgroundPattern />
         </div>
     );
