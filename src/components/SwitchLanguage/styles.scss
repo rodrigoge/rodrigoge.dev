@@ -1,0 +1,53 @@
+@import '../../styles/colors.scss';
+@import url('https://use.fontawesome.com/releases/v6.4.0/css/all.css');
+
+.switch-language-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    label {
+        cursor: pointer;
+
+        >input {
+            display: none;
+        }
+
+        span {
+            color: $grey;
+        }
+
+        i {
+            height: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: 0.25s 0.09s;
+            position: relative;
+        }
+
+        >input+i:after {
+            content: '';
+            display: block;
+            position: absolute;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            background: url('../../assets/usa-flag.png') 10% no-repeat;
+            background-size: 30px;
+            margin: 5% 0 0 45%;
+        }
+
+        >input:checked+i:after {
+            content: '';
+            display: block;
+            position: absolute;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            background: url('../../assets/brasil-flag.png') 10% no-repeat;
+            background-size: 30px;
+            margin: 5% 0 0 45%;
+        }
+    }
+}

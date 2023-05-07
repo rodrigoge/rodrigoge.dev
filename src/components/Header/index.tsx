@@ -2,6 +2,7 @@ import './styles.scss';
 import { Link } from 'react-router-dom';
 import Button from '../Button';
 import SwitchTheme from '../SwitchTheme';
+import SwitchLanguage from '../SwitchLanguage';
 
 export default function Header() {
     return (
@@ -20,7 +21,9 @@ export default function Header() {
                         <Link to="" className='menu-item'>Home</Link>
                         <Link to="" className='menu-item'>About</Link>
                         <Link to="" className='menu-item'>Projects</Link>
-                        <span className='menu-item'>Language</span>
+                        <span className='menu-item'>
+                            <SwitchLanguage />
+                        </span>
                         <span className='menu-item'>
                             <SwitchTheme />
                         </span>
