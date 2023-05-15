@@ -3,8 +3,11 @@ import { Link } from 'react-router-dom';
 import Button from '../Button';
 import SwitchTheme from '../SwitchTheme';
 import SwitchLanguage from '../SwitchLanguage';
+import { useTranslation } from 'react-i18next';
 
 export default function Header() {
+    const { t } = useTranslation();
+
     return (
         <div className="header-container">
             <header>
@@ -18,9 +21,15 @@ export default function Header() {
 
                 <nav>
                     <ul>
-                        <Link to="" className='menu-item'>Home</Link>
-                        <Link to="" className='menu-item'>About</Link>
-                        <Link to="" className='menu-item'>Projects</Link>
+                        <Link to="" className='menu-item'>
+                            {t('header.home')}
+                        </Link>
+                        <Link to="" className='menu-item'>
+                            {t('header.about')}
+                        </Link>
+                        <Link to="" className='menu-item'>
+                            {t('header.project')}
+                        </Link>
                         <span className='menu-item'>
                             <SwitchLanguage />
                         </span>
