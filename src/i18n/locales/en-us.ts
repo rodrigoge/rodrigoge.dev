@@ -5,6 +5,14 @@ export default {
             home: 'Home',
             about: 'About',
             project: 'Projects'
+        },
+        home: {
+            heroTitle: 'Hi! I am',
+            heroSubtitle: 'Fullstack Developer at',
+            heroDescription: 'Developing applications and systems for',
+            heroYears: '3 years',
+            heroJob: 'as a fullstack developer',
+            heroTag: 'Microservices'
         }
     }
 }
