@@ -3,7 +3,7 @@
 
 .homepage-container {
     width: 100%;
-    height: 80vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -125,6 +125,86 @@
             img {
                 width: 90%;
                 margin-right: 0px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 951px) and (max-width: 1250px) {
+    .homepage-container {
+        form {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+            padding: 0 40px;
+
+            .hero-section {
+                display: flex;
+                margin-top: 48px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 950px) {
+    .homepage-container {
+        form {
+            z-index: 1000;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .hero-section {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                margin-top: 48px;
+            }
+
+            aside {
+                display: none;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 600px) {
+    .homepage-container {
+        form {
+            z-index: 1000;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .hero-section {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                margin-top: 48px;
+
+                .hero-footer {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 20px;
+
+                    .hero-social-medias {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center;
+                        margin-left: 0;
+                    }
+                }
+            }
+
+            aside {
+                display: none;
             }
         }
     }
