@@ -29,7 +29,7 @@ export default function Header() {
                     </div>
                 </Link>
 
-                <nav className={`${isClick ? "" : "on"}`}>
+                <nav className={`${isClick ? "on" : ""}`}>
                     <ul>
                         <Link to="" className='menu-item'>
                             {t('header.home')}

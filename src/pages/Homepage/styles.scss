@@ -184,7 +184,30 @@
                 display: flex;
                 justify-content: flex-start;
                 align-items: center;
-                margin-top: 48px;
+                margin-top: -20px;
+                width: 450px;
+                gap: 20px;
+
+                h1 {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+
+                    .hero-letter {
+                        .tags {
+                            display: none;
+                        }
+                    }
+                }
+
+                h2,
+                .hero-subtitle {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                }
 
                 .hero-footer {
                     display: flex;
