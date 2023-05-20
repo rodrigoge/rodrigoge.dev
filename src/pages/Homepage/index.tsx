@@ -18,38 +18,43 @@ export default function Homepage() {
             <div className="homepage-container">
                 <form>
                     <div className="hero-section">
-                        <h1>
+                        <h1 className="drop-in-1ms">
                             <span className="hero-letter">
-                                {t('home.heroTitle')}
+                                <span>
+                                    {t('home.heroTitle')}
+                                </span>
                                 <br />
                                 <div className="tags">
-                                    <span className="hero-tags">Frontend</span>
-                                    <span className="hero-tags">{t('home.heroTag')}</span>
+                                    <span className="hero-tags drop-in-1200ms">Frontend</span>
+                                    <span className="hero-tags drop-in-1500ms">{t('home.heroTag')}</span>
                                 </div>
                             </span>
 
-                            <span className="hero-letter-name">Rodrigo Gouveia</span>
+                            <span className="hero-letter-name drop-in-1200ms">Rodrigo Gouveia</span>
                         </h1>
 
-                        <h2>
-                            {t('home.heroSubtitle')}
+                        <h2 className="drop-in-1ms">
+                            <span className="drop-in-1ms">
+                                {t('home.heroSubtitle')}
+                            </span>
 
                             <Link
-                                className="hero-link"
-                                to="https://www.hst.com.br/pt-br/">
+                                className="hero-link drop-in-1200ms"
+                                to="https://www.hst.com.br/pt-br/"
+                                target="_blank">
                                 HST Card Technology
                             </Link>
                         </h2>
 
-                        <span className="hero-subtitle">
+                        <span className="hero-subtitle drop-in-1ms">
                             {t('home.heroDescription')}
-                            <b>
+                            <b className="drop-in-1200ms">
                                 {t('home.heroYears')}
                             </b>
                             {t('home.heroJob')}.
                         </span>
 
-                        <div className="hero-footer">
+                        <div className="hero-footer drop-in-1ms">
                             <Button
                                 action='/'
                                 text="Let's chat"
@@ -57,28 +62,28 @@ export default function Homepage() {
 
                             <div className="hero-social-medias">
                                 <Link
-                                    className="hero-link"
+                                    className="hero-link drop-in-1200ms"
                                     to="https://github.com/rodrigoge"
                                     target="_blank">
                                     <IoLogoGithub />
                                 </Link>
 
                                 <Link
-                                    className="hero-link"
+                                    className="hero-link drop-in-1200ms"
                                     to="https://www.linkedin.com/in/rodrigogouveiae/"
                                     target="_blank">
                                     <IoLogoLinkedin />
                                 </Link>
 
                                 <Link
-                                    className="hero-link"
+                                    className="hero-link drop-in-1500ms"
                                     to="https://www.instagram.com/rodrigoge_/"
                                     target="_blank">
                                     <AiFillInstagram />
                                 </Link>
 
                                 <Link
-                                    className="hero-link"
+                                    className="hero-link drop-in-1500ms"
                                     to="https://medium.com/@rodrigoge"
                                     target="_blank">
                                     <BsMedium />
@@ -87,7 +92,7 @@ export default function Homepage() {
                         </div>
                     </div>
 
-                    <aside>
+                    <aside className="drop-in-1500ms">
                         <img src={heroImg} alt="Hero image" />
                     </aside>
                 </form>
