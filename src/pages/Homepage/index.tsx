@@ -8,6 +8,7 @@ import Button from '../../components/Button';
 import { IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5';
 import { AiFillInstagram } from 'react-icons/ai';
 import { BsMedium } from 'react-icons/bs';
+import Tooltip from '@mui/material/Tooltip';
 
 export default function Homepage() {
     const { t } = useTranslation();
@@ -61,33 +62,41 @@ export default function Homepage() {
                             />
 
                             <div className="hero-social-medias">
-                                <Link
-                                    className="hero-link drop-in-1200ms"
-                                    to="https://github.com/rodrigoge"
-                                    target="_blank">
-                                    <IoLogoGithub />
-                                </Link>
+                                <Tooltip title="GitHub">
+                                    <Link
+                                        className="hero-link drop-in-1200ms"
+                                        to="https://github.com/rodrigoge"
+                                        target="_blank">
+                                        <IoLogoGithub />
+                                    </Link>
+                                </Tooltip>
 
-                                <Link
-                                    className="hero-link drop-in-1200ms"
-                                    to="https://www.linkedin.com/in/rodrigogouveiae/"
-                                    target="_blank">
-                                    <IoLogoLinkedin />
-                                </Link>
+                                <Tooltip title="LinkedIn">
+                                    <Link
+                                        className="hero-link drop-in-1200ms"
+                                        to="https://www.linkedin.com/in/rodrigogouveiae/"
+                                        target="_blank">
+                                        <IoLogoLinkedin />
+                                    </Link>
+                                </Tooltip>
 
-                                <Link
-                                    className="hero-link drop-in-1500ms"
-                                    to="https://www.instagram.com/rodrigoge_/"
-                                    target="_blank">
-                                    <AiFillInstagram />
-                                </Link>
+                                <Tooltip title="Instagram">
+                                    <Link
+                                        className="hero-link drop-in-1500ms"
+                                        to="https://www.instagram.com/rodrigoge_/"
+                                        target="_blank">
+                                        <AiFillInstagram />
+                                    </Link>
+                                </Tooltip>
 
-                                <Link
-                                    className="hero-link drop-in-1500ms"
-                                    to="https://medium.com/@rodrigoge"
-                                    target="_blank">
-                                    <BsMedium />
-                                </Link>
+                                <Tooltip title="Medium">
+                                    <Link
+                                        className="hero-link drop-in-1500ms"
+                                        to="https://medium.com/@rodrigoge"
+                                        target="_blank">
+                                        <BsMedium />
+                                    </Link>
+                                </Tooltip>
                             </div>
                         </div>
                     </div>
