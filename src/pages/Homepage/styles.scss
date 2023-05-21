@@ -4,12 +4,13 @@
 
 .homepage-container {
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
     background: transparent;
+    overflow: hidden;
 
     form {
         width: 1200px;
@@ -18,6 +19,7 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        align-items: center;
 
         .hero-section {
             display: flex;
@@ -196,9 +198,17 @@
                     align-items: center;
 
                     .hero-letter {
+                        span {
+                            font-size: 32px;
+                        }
+
                         .tags {
                             display: none;
                         }
+                    }
+
+                    .hero-letter-name {
+                        font-size: 32px;
                     }
                 }
 

@@ -38,13 +38,12 @@ header {
     }
 
     nav {
-        width: 45%;
-
         ul {
             display: flex;
             flex-direction: row;
             justify-content: space-between;
             align-items: center;
+            gap: 46px;
 
             .menu-item {
                 color: var(--text-color);
@@ -61,6 +60,12 @@ header {
 
 @media screen and (min-width: 481px) and (max-width: 950px) {
     header {
+        padding: 0 28px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 46px;
+
         nav {
             display: flex;
             justify-content: center;
@@ -72,7 +77,6 @@ header {
 
             .menu-bars {
                 width: 35px;
-                height: 30px;
                 right: 36px;
                 cursor: pointer;
                 animation: fade 2.5s;
@@ -135,6 +139,12 @@ header {
 
 @media screen and (min-width: 0px) and (max-width: 480px) {
     header {
+        padding: 0 28px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 26px;
+
         nav {
             display: flex;
             justify-content: center;
@@ -146,7 +156,6 @@ header {
 
             .menu-bars {
                 width: 35px;
-                height: 30px;
                 right: 36px;
                 cursor: pointer;
                 animation: fade 2.5s;
@@ -203,6 +212,10 @@ header {
                     background-color: var(--text-color);
                 }
             }
+        }
+
+        .header-button {
+            display: none;
         }
     }
 }

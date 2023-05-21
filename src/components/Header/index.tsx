@@ -55,7 +55,12 @@ export default function Header() {
                     </div>
                 </nav>
 
-                <Button action='/' text="Let's chat" />
+                <span className="header-button">
+                    <Button
+                        action='/'
+                        text="Let's chat"
+                    />
+                </span>
             </header>
         </div>
     );
