@@ -4,7 +4,6 @@ import BackgroundPattern from '../../components/BackgroundPattern';
 import Header from '../../components/Header';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import Button from '../../components/Button';
 import { IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5';
 import { AiFillInstagram } from 'react-icons/ai';
 import { BsMedium } from 'react-icons/bs';
@@ -56,11 +55,6 @@ export default function Homepage() {
                         </span>
 
                         <div className="hero-footer drop-in-1ms">
-                            <Button
-                                action='/'
-                                text="Let's chat"
-                            />
-
                             <div className="hero-social-medias">
                                 <Tooltip title="GitHub">
                                     <Link

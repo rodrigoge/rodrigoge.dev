@@ -1,6 +1,5 @@
 import './styles.scss';
 import { Link } from 'react-router-dom';
-import Button from '../Button';
 import SwitchTheme from '../SwitchTheme';
 import SwitchLanguage from '../SwitchLanguage';
 import { useTranslation } from 'react-i18next';
@@ -54,13 +53,6 @@ export default function Header() {
                         <div className="three"></div>
                     </div>
                 </nav>
-
-                <span className="header-button">
-                    <Button
-                        action='/'
-                        text="Let's chat"
-                    />
-                </span>
             </header>
         </div>
     );
