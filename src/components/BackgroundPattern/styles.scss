@@ -125,3 +125,57 @@
     }
 
 }
+
+@media screen and (min-width: 0px) and (max-width: 600px) {
+    .background-pattern-container {
+        .polygon-filled {
+            color: $yellow;
+            bottom: 170px;
+            left: 10%;
+        }
+
+        .polygon-transparent {
+            color: var(--text-color);
+            bottom: 175px;
+            left: 10.5%;
+        }
+
+        .ellipse-filled {
+            color: $orange;
+            top: 20px;
+            left: 85%;
+        }
+
+        .ellipse-transparent {
+            color: var(--text-color);
+            top: 20px;
+            left: 85%;
+        }
+
+        .square-filled {
+            color: $blue;
+            bottom: 130px;
+            right: 10%;
+        }
+
+        .square-transparent {
+            color: var(--text-color);
+            bottom: 135px;
+            right: 9.5%;
+        }
+
+        .octagon-filled {
+            color: $green;
+            top: 10px;
+            bottom: 0;
+            left: 10%;
+        }
+
+        .octagon-transparent {
+            color: var(--text-color);
+            top: 9px;
+            bottom: 0;
+            left: 11%;
+        }
+    }
+}

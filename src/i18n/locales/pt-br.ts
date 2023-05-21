@@ -4,7 +4,9 @@ export default {
             messageButton: `Vamos conversar`,
             home: 'Início',
             about: 'Sobre',
-            project: 'Projetos'
+            project: 'Projetos',
+            idiom: 'Idioma',
+            theme: 'Tema'
         },
         home: {
             heroTitle: 'Oi! Eu sou',

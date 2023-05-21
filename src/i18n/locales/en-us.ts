@@ -4,7 +4,9 @@ export default {
             messageButton: `Let's chat`,
             home: 'Home',
             about: 'About',
-            project: 'Projects'
+            project: 'Projects',
+            idiom: 'Language',
+            theme: 'Theme'
         },
         home: {
             heroTitle: 'Hi! I am',
