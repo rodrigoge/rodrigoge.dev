@@ -97,33 +97,6 @@
         left: 50.5%;
     }
 
-    .line {
-        position: absolute;
-        border: 1px dashed var(--details-color);
-        height: 100vh;
-        z-index: 1;
-    }
-
-    .first-line {
-        left: 16.6%;
-    }
-
-    .second-line {
-        left: 33.3%;
-    }
-
-    .third-line {
-        left: 50%;
-    }
-
-    .fourth-line {
-        left: 66.6%;
-    }
-
-    .fifth-line {
-        left: 83%;
-    }
-
 }
 
 @media screen and (min-width: 0px) and (max-width: 600px) {

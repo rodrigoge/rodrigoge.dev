@@ -9,7 +9,7 @@ import {
 } from 'react-icons/bs';
 import { IoEllipse, IoEllipseOutline } from 'react-icons/io5';
 
-export default function BackgroundPattern() {
+export default function FormsPattern() {
     return (
         <div className="background-pattern-container">
             <BsFillTriangleFill className="polygon polygon-filled" />
@@ -23,15 +23,6 @@ export default function BackgroundPattern() {
 
             <BsOctagonFill className="octagon octagon-filled" />
             <BsOctagon className="octagon octagon-transparent" />
-
-            <div className="lines">
-                <span className="line first-line"></span>
-                <span className="line second-line"></span>
-                <span className="line third-line"></span>
-                <span className="line fourth-line"></span>
-                <span className="line fifth-line"></span>
-                <span className="line sixth-line"></span>
-            </div>
         </div>
     );
 }

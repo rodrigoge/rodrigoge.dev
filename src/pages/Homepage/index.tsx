@@ -1,6 +1,6 @@
 import './styles.scss';
 import heroImg from '../../assets/hero-image.svg';
-import BackgroundPattern from '../../components/BackgroundPattern';
+import FormsPattern from '../../components/FormsPattern';
 import Header from '../../components/Header';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
@@ -8,6 +8,7 @@ import { IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5';
 import { AiFillInstagram } from 'react-icons/ai';
 import { BsMedium } from 'react-icons/bs';
 import Tooltip from '@mui/material/Tooltip';
+import LinePattern from '../../components/LinePattern';
 
 export default function Homepage() {
     const { t } = useTranslation();
@@ -101,7 +102,8 @@ export default function Homepage() {
                 </form>
             </div>
 
-            <BackgroundPattern />
+            <LinePattern />
+            <FormsPattern />
         </div>
     );
 }
