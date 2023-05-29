@@ -9,7 +9,7 @@ export default function Card({
   return (
     <div className="card-container">
       <img src={img} alt="HST Card Technology" className='drop-in-1ms' />
-      <span className='pointer'></span>
+      <span className='pointer drop-in-1200ms'></span>
       <div className="content-job">
         <span className="working-time drop-in-1ms">{titleJob}</span>
         <span className="office drop-in-1200ms">{officeJob}</span>
