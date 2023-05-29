@@ -33,10 +33,10 @@ export default function Header() {
                         <Link to="/" className='menu-item'>
                             {t('header.home')}
                         </Link>
-                        <Link to="" className='menu-item'>
+                        <Link to="/about" className='menu-item'>
                             {t('header.about')}
                         </Link>
-                        <Link to="projects" className='menu-item'>
+                        <Link to="/projects" className='menu-item'>
                             {t('header.project')}
                         </Link>
                         <span className='menu-item'>

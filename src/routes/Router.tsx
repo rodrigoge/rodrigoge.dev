@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from '../pages/Homepage';
 import Projects from "../pages/Projects";
+import About from "../pages/About";
 
 export default function Router() {
     return (
@@ -8,6 +9,7 @@ export default function Router() {
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/projects" element={<Projects />} />
+                <Route path="/about" element={<About />} />
             </Routes>
         </BrowserRouter>
     );
