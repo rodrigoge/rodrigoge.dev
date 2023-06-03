@@ -1,6 +1,6 @@
 import './styles.scss';
 
-export default function LinePattern() {
+export default function LinePatternComponent() {
   return (
     <div className="background-line-pattern-container">
       <div className="lines">

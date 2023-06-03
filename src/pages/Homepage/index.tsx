@@ -1,21 +1,21 @@
 import './styles.scss';
 import heroImg from '../../assets/hero-image.svg';
-import FormsPattern from '../../components/FormsPattern';
-import Header from '../../components/Header';
+import FormPatternComponent from '../../components/FormPatternComponent';
+import HeaderComponent from '../../components/HeaderComponent';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5';
 import { AiFillInstagram } from 'react-icons/ai';
 import { BsMedium } from 'react-icons/bs';
 import Tooltip from '@mui/material/Tooltip';
-import LinePattern from '../../components/LinePattern';
+import LinePatternComponent from '../../components/LinePatternComponent';
 
 export default function Homepage() {
     const { t } = useTranslation();
 
     return (
         <div>
-            <Header />
+            <HeaderComponent />
             <div className="homepage-container">
                 <form>
                     <div className="hero-section">
@@ -97,13 +97,13 @@ export default function Homepage() {
                     </div>
 
                     <aside className="drop-in-1500ms">
-                        <img src={heroImg} alt="Hero image" />
+                        <img src={heroImg} alt="Hero image" className='heroImg' />
                     </aside>
                 </form>
             </div>
 
-            <LinePattern />
-            <FormsPattern />
+            <LinePatternComponent />
+            <FormPatternComponent />
         </div>
     );
 }

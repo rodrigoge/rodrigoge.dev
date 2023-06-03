@@ -9,7 +9,7 @@ import {
 } from 'react-icons/bs';
 import { IoEllipse, IoEllipseOutline } from 'react-icons/io5';
 
-export default function FormsPattern() {
+export default function FormPatternComponent() {
     return (
         <div className="background-pattern-container">
             <BsFillTriangleFill className="polygon polygon-filled" />

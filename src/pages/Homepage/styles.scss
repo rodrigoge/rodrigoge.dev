@@ -19,7 +19,6 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        align-items: center;
 
         .hero-section {
             display: flex;
@@ -124,9 +123,8 @@
             justify-content: flex-end;
             align-items: flex-start;
 
-            img {
+            .heroImg {
                 width: 90%;
-                margin-right: 0px;
             }
         }
     }
@@ -138,13 +136,11 @@
             display: flex;
             flex-direction: row;
             justify-content: center;
-            align-items: center;
             z-index: 1000;
             padding: 0 40px;
 
             .hero-section {
                 display: flex;
-                margin-top: 48px;
             }
         }
     }
@@ -163,7 +159,6 @@
                 display: flex;
                 justify-content: flex-start;
                 align-items: center;
-                margin-top: 48px;
             }
 
             aside {

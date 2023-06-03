@@ -1,11 +1,11 @@
 import './styles.scss';
 import { Link } from 'react-router-dom';
-import SwitchTheme from '../SwitchTheme';
-import SwitchLanguage from '../SwitchLanguage';
+import SwitchThemeComponent from '../SwitchThemeComponent';
+import SwitchLanguageComponent from '../SwitchLanguageComponent';
 import { useTranslation } from 'react-i18next';
 import { useState } from 'react';
 
-export default function Header() {
+export default function HeaderComponent() {
     const { t } = useTranslation();
     const [isClick, setIsClick] = useState(false);
 
@@ -40,10 +40,10 @@ export default function Header() {
                             {t('header.project')}
                         </Link>
                         <span className='menu-item'>
-                            <SwitchLanguage />
+                            <SwitchLanguageComponent />
                         </span>
                         <span className='menu-item'>
-                            <SwitchTheme />
+                            <SwitchThemeComponent />
                         </span>
                     </ul>
 

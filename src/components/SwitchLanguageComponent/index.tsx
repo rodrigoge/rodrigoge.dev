@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import './styles.scss';
 import { useTranslation } from 'react-i18next';
 
-export default function SwitchLanguage() {
+export default function SwitchLanguageComponent() {
     const [languageLocalStorage] = useState(localStorage.getItem('language'));
     const [isChecked, setIsChecked] = useState<boolean>(true);
     const { i18n } = useTranslation();

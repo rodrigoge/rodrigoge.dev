@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import './styles.scss';
 
-export default function SwitchTheme() {
+export default function SwitchThemeComponent() {
     const [themeLocalStorage] = useState(localStorage.getItem('theme'));
     const [isChecked, setIsChecked] = useState<boolean>(true);
 

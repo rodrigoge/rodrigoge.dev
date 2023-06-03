@@ -1,7 +1,7 @@
 import './styles.scss';
 import { CardType } from '../../types/CardType';
 
-export default function Card({
+export default function CardComponent({
   img,
   titleJob,
   officeJob,
