@@ -10,7 +10,7 @@ import { BsMedium } from 'react-icons/bs';
 import Tooltip from '@mui/material/Tooltip';
 import LinePatternComponent from '../../components/LinePatternComponent';
 
-export default function Homepage() {
+export default function HomePage() {
     const { t } = useTranslation();
 
     return (
