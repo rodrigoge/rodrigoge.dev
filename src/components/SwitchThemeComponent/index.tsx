@@ -45,10 +45,10 @@ export default function SwitchThemeComponent() {
     }, [themeLocalStorage]);
 
     return (
-        <div className="switch-theme-container">
+        <div className='switch-theme-container'>
             <label>
                 <input
-                    type="checkbox"
+                    type='checkbox'
                     value={'isChecked'}
                     checked={isChecked}
                     onChange={toggleCheckedTheme}

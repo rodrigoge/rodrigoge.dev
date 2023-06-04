@@ -7,13 +7,13 @@ export default function CardComponent({
   officeJob,
   descriptionJob }: CardType) {
   return (
-    <div className="card-container">
-      <img src={img} alt="HST Card Technology" className='drop-in-1ms' />
+    <div className='card-container'>
+      <img src={img} alt='HST Card Technology' className='drop-in-1ms' />
       <span className='pointer drop-in-1200ms'></span>
-      <div className="content-job">
-        <span className="working-time drop-in-1ms">{titleJob}</span>
-        <span className="office drop-in-1200ms">{officeJob}</span>
-        <span className="job-description drop-in-1500ms">
+      <div className='content-job'>
+        <span className='working-time drop-in-1ms'>{titleJob}</span>
+        <span className='office drop-in-1200ms'>{officeJob}</span>
+        <span className='job-description drop-in-1500ms'>
           {descriptionJob}
         </span>
       </div>

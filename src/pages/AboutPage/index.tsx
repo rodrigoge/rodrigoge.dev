@@ -13,14 +13,14 @@ export default function AboutPage() {
   return (
     <>
       <HeaderComponent />
-      <div className="about-container">
-        <div className="content-container">
+      <div className='about-container'>
+        <div className='content-container'>
           <h1 className='drop-in-1ms'>{t('about.aboutTitle')}</h1>
           <h2 className='drop-in-1200ms'>
             {t('about.aboutSubtitle')}
           </h2>
         </div>
-        <div className="timeline-container">
+        <div className='timeline-container'>
           <span className='line drop-in-1ms'></span>
           <CardComponent
             img={hstImage}

@@ -18,25 +18,25 @@ export default function HeaderComponent() {
     }
 
     return (
-        <div className="header-container">
+        <div className='header-container'>
             <header>
-                <Link to="/" className='logo-image'>
-                    <div className="logo">
+                <Link to='/' className='logo-image'>
+                    <div className='logo'>
                         <span>R</span>
                         <span>G</span>
                         <span>.</span>
                     </div>
                 </Link>
 
-                <nav className={`${isClick ? "on" : ""}`}>
+                <nav className={`${isClick ? 'on' : ''}`}>
                     <ul>
-                        <Link to="/" className='menu-item'>
+                        <Link to='/' className='menu-item'>
                             {t('header.home')}
                         </Link>
-                        <Link to="/about" className='menu-item'>
+                        <Link to='/about' className='menu-item'>
                             {t('header.about')}
                         </Link>
-                        <Link to="/projects" className='menu-item'>
+                        <Link to='/projects' className='menu-item'>
                             {t('header.project')}
                         </Link>
                         <span className='menu-item'>
@@ -47,10 +47,10 @@ export default function HeaderComponent() {
                         </span>
                     </ul>
 
-                    <div className="menu-bars" onClick={clickMenu}>
-                        <div className="one"></div>
-                        <div className="two"></div>
-                        <div className="three"></div>
+                    <div className='menu-bars' onClick={clickMenu}>
+                        <div className='one'></div>
+                        <div className='two'></div>
+                        <div className='three'></div>
                     </div>
                 </nav>
             </header>

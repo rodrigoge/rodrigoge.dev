@@ -11,8 +11,23 @@ html,
 body {
     background-color: var(--background-color);
     font-family: 'Lexend', sans-serif;
+    cursor: none;
 }
 
 body {
     overflow: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 8px;
+    background-color: var(--background-color);
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background-color: var(--details-color);
 }

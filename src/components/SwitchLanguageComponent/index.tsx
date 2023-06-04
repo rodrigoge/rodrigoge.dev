@@ -48,10 +48,10 @@ export default function SwitchLanguageComponent() {
     }, [languageLocalStorage]);
 
     return (
-        <div className="switch-language-container">
+        <div className='switch-language-container'>
             <label>
                 <input
-                    type="checkbox"
+                    type='checkbox'
                     value={'isChecked'}
                     checked={isChecked}
                     onChange={toggleCheckedLanguage}

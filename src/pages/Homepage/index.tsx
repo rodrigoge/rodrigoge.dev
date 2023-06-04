@@ -16,79 +16,79 @@ export default function Homepage() {
     return (
         <div>
             <HeaderComponent />
-            <div className="homepage-container">
+            <div className='homepage-container'>
                 <form>
-                    <div className="hero-section">
-                        <h1 className="drop-in-1ms">
-                            <span className="hero-letter">
+                    <div className='hero-section'>
+                        <h1 className='drop-in-1ms'>
+                            <span className='hero-letter'>
                                 <span>
                                     {t('home.heroTitle')}
                                 </span>
                                 <br />
-                                <div className="tags">
-                                    <span className="hero-tags drop-in-1200ms">Frontend</span>
-                                    <span className="hero-tags drop-in-1500ms">{t('home.heroTag')}</span>
+                                <div className='tags'>
+                                    <span className='hero-tags drop-in-1200ms'>Frontend</span>
+                                    <span className='hero-tags drop-in-1500ms'>{t('home.heroTag')}</span>
                                 </div>
                             </span>
 
-                            <span className="hero-letter-name drop-in-1200ms">Rodrigo Gouveia</span>
+                            <span className='hero-letter-name drop-in-1200ms'>Rodrigo Gouveia</span>
                         </h1>
 
-                        <h2 className="drop-in-1ms">
-                            <span className="drop-in-1ms">
+                        <h2 className='drop-in-1ms'>
+                            <span className='drop-in-1ms'>
                                 {t('home.heroSubtitle')}
                             </span>
 
                             <Link
-                                className="hero-link drop-in-1200ms"
-                                to="https://www.hst.com.br/pt-br/"
-                                target="_blank">
+                                className='hero-link drop-in-1200ms'
+                                to='https://www.hst.com.br/pt-br/'
+                                target='_blank'>
                                 HST Card Technology
                             </Link>
                         </h2>
 
-                        <span className="hero-subtitle drop-in-1ms">
+                        <span className='hero-subtitle drop-in-1ms'>
                             {t('home.heroDescription')}
-                            <b className="drop-in-1200ms">
+                            <b className='drop-in-1200ms'>
                                 {t('home.heroYears')}
                             </b>
                             {t('home.heroJob')}.
                         </span>
 
-                        <div className="hero-footer drop-in-1ms">
-                            <div className="hero-social-medias">
-                                <Tooltip title="GitHub">
+                        <div className='hero-footer drop-in-1ms'>
+                            <div className='hero-social-medias'>
+                                <Tooltip title='GitHub'>
                                     <Link
-                                        className="hero-link drop-in-1200ms"
-                                        to="https://github.com/rodrigoge"
-                                        target="_blank">
+                                        className='hero-link drop-in-1200ms'
+                                        to='https://github.com/rodrigoge'
+                                        target='_blank'>
                                         <IoLogoGithub />
                                     </Link>
                                 </Tooltip>
 
-                                <Tooltip title="LinkedIn">
+                                <Tooltip title='LinkedIn'>
                                     <Link
-                                        className="hero-link drop-in-1200ms"
-                                        to="https://www.linkedin.com/in/rodrigogouveiae/"
-                                        target="_blank">
+                                        className='hero-link drop-in-1200ms'
+                                        to='https://www.linkedin.com/in/rodrigogouveiae/'
+                                        target='_blank'>
                                         <IoLogoLinkedin />
                                     </Link>
                                 </Tooltip>
 
-                                <Tooltip title="Instagram">
+                                <Tooltip title='Instagram'>
                                     <Link
-                                        className="hero-link drop-in-1500ms"
-                                        to="https://www.instagram.com/rodrigoge_/"
-                                        target="_blank">
+                                        className='hero-link drop-in-1500ms'
+                                        to='https://www.instagram.com/rodrigoge_/'
+                                        target='_blank'>
                                         <AiFillInstagram />
                                     </Link>
                                 </Tooltip>
 
-                                <Tooltip title="Medium">
+                                <Tooltip title='Medium'>
                                     <Link
-                                        className="hero-link drop-in-1500ms"
-                                        to="https://medium.com/@rodrigoge"
-                                        target="_blank">
+                                        className='hero-link drop-in-1500ms'
+                                        to='https://medium.com/@rodrigoge'
+                                        target='_blank'>
                                         <BsMedium />
                                     </Link>
                                 </Tooltip>
@@ -96,8 +96,8 @@ export default function Homepage() {
                         </div>
                     </div>
 
-                    <aside className="drop-in-1500ms">
-                        <img src={heroImg} alt="Hero image" className='heroImg' />
+                    <aside className='drop-in-1500ms'>
+                        <img src={heroImg} alt='Hero image' className='heroImg' />
                     </aside>
                 </form>
             </div>
